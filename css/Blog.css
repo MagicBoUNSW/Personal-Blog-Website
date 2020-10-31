@@ -1,0 +1,88 @@
+.little_line{
+    font-size: 15px;
+}
+.big_font{
+    font-size: 40px;
+}
+.link_color{
+    color: dodgerblue;
+}
+.name{
+    text-decoration: underline;
+}
+.text_box{
+    border: 2px solid gray;
+    height: 120%;
+}
+.heading_size{
+    font-size: 34px;
+    font-weight: bold;
+}
+.sub_size{
+     font-size: 30px;
+     font-weight: bold;
+ }
+.border{
+    border: 1px solid gray;
+}
+.sb{
+    border: 10px hidden white;
+    background: rgb(214, 228, 233);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.about_size{
+    font-size: 30px;
+    font-style:italic;
+    font-weight: bold;
+}
+footer{
+    margin-top: 60px;
+    width: 100%;
+    border: hidden;
+    height:70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray
+}
+.for_section{
+    width: 30%;
+    float: left;
+}
+.blog-image{
+    width: 600px;
+    height: 300px;
+}
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .for_section{
+        width: 70%;
+        float: left;
+    }
+    .blog-image{
+        width: 400px
+    }
+}
+@media screen and (max-width: 575px){
+    .for_section{
+        width: 70%;
+        float: left;
+    }
+    .blog-image{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width:768px){
+    .blog-image{
+        width: 400px
+    }
+}
+button{
+    border-radius: 30%;
+    border-color: BLUE;
+    background-color: white;
+    height: 30px;
+}

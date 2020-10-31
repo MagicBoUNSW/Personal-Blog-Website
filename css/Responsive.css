@@ -1,0 +1,55 @@
+@media screen and (max-width: 500px) {
+    .blogposts { 
+        flex-direction: column;
+      
+    }
+    
+    .box {
+        margin-top: 30px;
+        width: 93vw;
+        height: 50vh;
+    }
+    .sectgrid {
+        grid-gap: 5%;
+    }
+    .footer {
+        margin-top: 280px;
+    }
+}
+
+.top {
+   color: green;
+   font-family: "Lucida Console", Courier, monospace;
+}
+    
+    
+
+
+@media screen and (max-width: 767px) and (min-width: 500px){ 
+    .sectgrid {
+        display: grid;
+        grid-gap: 10%;
+        
+    }
+    .blogposts{
+        left:50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    
+        
+    }
+    
+    .box {
+        text-align: left;
+        width: 40vw;
+        height: 34vh;
+        border:6px solid grey;
+    }
+    .smallgrid {
+        display:grid;
+    }
+    .footer {
+        margin-top: 180px;
+    }
+ }
