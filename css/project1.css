@@ -36,10 +36,17 @@
     height: 30vh;
     border:6px solid grey;
     padding-left: 20px;
+    background-image: url("../images/images.jpg");
+    background-size: cover;
 }
 .smallgrid {
     display:grid;
 }
 .footer {
     margin-top: 200px;
+}
+.img {
+    width: 50px;
+    height: 50px;
+
 }
